@@ -1,5 +1,6 @@
 body{
 	background-color:#f5f5f5;
+	font-family:Arial;
 }
 
 span.blogTitle{
@@ -8,11 +9,8 @@ span.blogTitle{
 	font-weight:bold;
 }
 
-.jumbotronBackground{
-	position:absolute;
-	margin-top:0;
-	width:100%;
-	z-index:-1;
+h1.jumbotronTitle{
+	color:white;
 }
 
 div.pagePart{
@@ -58,8 +56,24 @@ div.name{
 div.blogContainer{
 	margin:0px 50px 20px 5px;
 	width: 800px;
-	border:0.5px solid #eeeeee;
+}
+div.blogItemStick{
+	width:100%;
+	height:150px;
 	background-color:white;
+	border:0.5px solid #eeeeee;
+	margin-bottom:10px;
+	padding:20px;
+	position:relative;
+}
+div.blogItem{
+	width:100%;
+	height:150px;
+	background-color:white;
+	border:0.5px solid #eeeeee;
+	margin-bottom:10px;
+	padding:20px;
+	position:relative;
 }
 div.pInfoHeader{
 	position:absolute;
@@ -68,4 +82,63 @@ div.pInfoHeader{
 	background-color:#b72e33;
 	margin:0;
 	z-index:0;
+}
+div.blogContainer a{
+	text-decoration:none;
+}
+div.blogContainer a:hover{
+	color:#b72e33;
+}
+div.stickBanner{
+	width:100%;
+	height:5px;
+	background-color:#b72e33;
+	margin:0;
+}
+div.blogTitle{
+	font-size:25px;
+	font-weight:bold;
+	color:black;
+}
+div.blogAbstract{
+	font-size:15px;
+	color:#404040;
+	margin-left:10px;
+}
+div.blogDate{
+	font-size:12px;
+	color:#404040;
+	float:right;
+	position:absolute;
+	right:15px;
+	bottom:15px;
+}
+nav.pageNav{
+	margin:0 auto;
+}
+div.blogBody{
+	background-color:white;
+	border:0.5px solid #eeeeee;
+}
+div.blogBody ol.pathNav{
+	background-color:white;
+}
+div.blogTitleInPage{
+	padding-left:50px;
+	font-size:bold;
+	font-size:30px;
+}
+div.blogTextInPage{
+	clear:both;
+	padding:20px 30px 50px;
+	font-size:15px;
+}
+div.blogTextInPage p{
+	text-align:justify;
+	text-indent:20px;
+}
+div.blogDateInPage{
+	font-size:12px;
+	color:#404040;
+	margin:30px;
 }

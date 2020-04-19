@@ -3,18 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name=¡±viewport¡± content=¡±width=device-width, initial-scale=1¡å />
+<meta name=Â¡Â±viewportÂ¡Â± content=Â¡Â±width=device-width, initial-scale=1Â¡å ¯>
 <title>LesleySong's TechBlog</title>
 <script src = "js/jquery.min.js"></script>
 <script src = "bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+<script src = "js/vue.min.js"></script>
+<script src = "js/blog.js"></script>
 <link rel = "stylesheet" href = "bootstrap/css/bootstrap/3.3.6/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-<div class="jumbotron">
-<!--img class = "jumbotronBackground" src = "image/cloud.jpg"-->
-<nav class = "navbar navbar-default navbar-fixed-top" style = "background-color:#b22222">
+<div class = "container-fluid">
+<nav class = "navbar navbar-default" style = "background-color:#b22222">
 	<div class = "navbar-header">
 		<a class = "navbar-brand" href = "#nowhere">
 			<span class = "blogTitle">LesleySong's TechBlog</span>
@@ -27,7 +28,9 @@
 		</form>
 	</div>
 </nav>
-  <h1>Hello, world!</h1>
+<div class="jumbotron" style = "background-image:url(image/cloud.jpg)">
+<!--img class = "jumbotronBackground" src = "image/cloud.jpg"-->
+  <h1 style = "color:white">Hello, world!</h1>
 </div>	
 <div class = "pagePart">
 	<div class = "userInfo">
@@ -37,9 +40,66 @@
 		<div class = "introduction">Learning...</div>
 	</div>
 	<div class = "blogContainer">
+	<div class = "stickBanner"></div>
+		<div class = "blogItemStick">
+			<a href = "#nowhere">
+				<div class = "pull-right glyphicon glyphicon-arrow-up" style = "color:#b72e23"></div>
+				<div class = "blogTitle">[Top] A Title For Test</div>
+				<div class = "blogAbstract">abstract abstract abstract abstract abstract</div>
+				<div class = "blogDate">2020-04-13</div>
+			</a>
+		</div>
 		<div class = "blogItem">
+			<a href = "#nowhere">
+				<div class = "blogTitle">A Title For Test</div>
+				<div class = "blogAbstract">abstract abstract abstract abstract abstract</div>
+				<div class = "blogDate">2020-04-13</div>
+			</a>
+		</div>
+		<div class = "blogItem">
+			<a href = "#nowhere">
+				<div class = "blogTitle">A Title For Test</div>
+				<div class = "blogAbstract">abstract abstract abstract abstract abstract</div>
+				<div class = "blogDate">2020-04-13</div>
+			</a>
+		</div>
+		<div class = "blogItem">
+			<a href = "#nowhere">
+				<div class = "blogTitle">A Title For Test</div>
+				<div class = "blogAbstract">abstract abstract abstract abstract abstract</div>
+				<div class = "blogDate">2020-04-13</div>
+			</a>
+		</div>
+		<div class = "blogItem">
+			<a href = "#nowhere">
+				<div class = "blogTitle">A Title For Test</div>
+				<div class = "blogAbstract">abstract abstract abstract abstract abstract</div>
+				<div class = "blogDate">2020-04-13</div>
+			</a>
+		</div>
+		<div class = "pull-right" >
+		<nav aria-label="Page navigation pull-right">
+			<ul class="pagination">
+				<li>
+					<a href="#" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span>
+					</a>
+				</li>
+				<li class = "active"><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li>
+					<a href="#" aria-label="Next">
+					<span aria-hidden="true">&raquo;</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
 		</div>
 	</div>
+</div>
 </div>
 </body>
 </html>
